@@ -198,7 +198,9 @@
                             <p id="studentAddress">អាសយដ្ឋានបច្ចុប្បន្ន: ${student.Address}</p>
                         </div>
                         <div class="card-footer">
-                            <img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=${window.location.href}?id=${student.StudentID}" alt="QR Code" class="qr-code" id="qrCode">
+                            <img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=krusamaki.github.io/KruIDCard?id=${student.StudentID}" alt="QR Code" class="qr-code" id="qrCode">
+                            <!--<img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=${window.location.href}?id=${student.StudentID}" alt="QR Code" class="qr-code" id="qrCode">-->
+                            
                         </div>
                         <button class="print-button" onclick="printSingleCard(this)">Print</button>
                     `;
